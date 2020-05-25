@@ -1,0 +1,10 @@
+.linea{
+    display: flex;
+    justify-content:space-between;
+}
+.avatar{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-right: 60px;
+}

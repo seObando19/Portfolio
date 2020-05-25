@@ -1,0 +1,20 @@
+.linea{
+    display: flex;
+    justify-content:space-between;
+    /* color: #EAD4AB; */
+    color: azure;
+    font-size: 17px;
+}
+.recuadros{
+    -webkit-box-shadow: 2px 1px 5px 3px rgba(143,205,227,1);
+    -moz-box-shadow: 2px 1px 5px 3px rgba(143,205,227,1);
+    box-shadow: 2px 1px 5px 3px rgba(143,205,227,1);
+    width: 350px;
+    height: 310px;
+    margin-top: 20px;
+    /* margin-bottom: 30px; */
+}
+.botons{
+    margin: 7px 6px 6px 7px;
+    border-color: rgba(143,205,227,1);
+}

@@ -1,0 +1,13 @@
+<h1>Portfolio</h1>
+<br>
+<div class="container">
+    <div class="linea">
+            <div class="recuadros card mb-3" *ngFor="let project of projects" [ngClass]="{'animate__animated animate__swing':project.active==true}">
+                <a href="{{project.url}}">
+                    <img class="image" src="{{project.img}}" alt="Card image">
+                    <h5 class="card-title">{{project.title}}</h5>
+                    <p class="card-text">{{project.text}}</p>
+                </a>
+            </div>
+    </div>
+</div>

@@ -1,0 +1,28 @@
+<div class="container mt-4">
+    <div class="jumbotron animated bounceInUp fast">
+        <div class="linea">
+            <div class="col-md-5">
+                <p>
+                    I am a web developer focused on teamwork,
+                    who seeks to learn from his peers and who
+                    is curious to learn on his own but always
+                    wants to teach his peers about his learning
+                    and who has a taste for Cafe.
+
+                    From my point of view, software development
+                    is one of the most incredible professions,
+                    because you only need a computer, the desire
+                    to create something from nothing and the desire
+                    to learn others and have fun.
+                </p>
+            </div>
+            <div class="col-md-5">
+                I have skills:
+                <br><br>
+                <div class="btn btn-primary botons hvr-float hvr-bounce-to-right" *ngFor="let skill of skills">
+                    {{ skill.name }}
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
