@@ -47,6 +47,14 @@ export class PortfolioComponent implements OnInit {
       title:'Node-Audio-Stream',
       text:'Proyecto practico el cual consiste el la subida de archivos de musica.',
       active:true
+    },
+    {
+      id:5,
+      img:'../../assets/img/proyectos/angular-firebase.png',
+      url:'https://github.com/seObando19/Angular-firebase',
+      title:'Angular-Firebase',
+      text:'Proyecto practico conectando Angular con Firebase con un login con autenticacion con correo o Google.',
+      active:true
     }
   ]
   constructor() { }
